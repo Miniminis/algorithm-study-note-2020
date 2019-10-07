@@ -4,7 +4,8 @@ public class p1041 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		String word = scan.nextLine();
-		char aWord = word.toCharArray()[0];
+		char aWord = word.charAt(0);
+		//char aWord = word.toCharArray()[0];
 		System.out.print((char)(aWord+1));
 	}
 }
