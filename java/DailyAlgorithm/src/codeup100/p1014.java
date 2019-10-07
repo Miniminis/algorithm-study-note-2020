@@ -9,7 +9,6 @@ public class p1014 {
 		char[] charArray = twochars.toCharArray();
 		System.out.println(charArray[2] + " "+charArray[0]);
 	}
-
 }
 
 //2개의 문자(ASCII CODE)를 입력받아서 순서를 바꿔 출력해보자.
